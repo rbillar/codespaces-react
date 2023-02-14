@@ -1,12 +1,14 @@
-import {Header} from './Header'
-import './App.css';
+import TaskTracker from './Components/TaskTracker';
+
+import './TaskTracker.css'
+
 
 const App = () => {
 
   return (
     <div className="App">
-      <h3>Rudy Billar</h3>
-    
+      <TaskTracker />
+   
     </div>
   );
 
